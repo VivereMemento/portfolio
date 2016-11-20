@@ -1,0 +1,294 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$-b-h-name: 'B-h';
+$-b-h-x: 0px;
+$-b-h-y: 212px;
+$-b-h-offset-x: 0px;
+$-b-h-offset-y: -212px;
+$-b-h-width: 40px;
+$-b-h-height: 40px;
+$-b-h-total-width: 76px;
+$-b-h-total-height: 532px;
+$-b-h-image: 'sprite.png';
+$-b-h: (0px, 212px, 0px, -212px, 40px, 40px, 76px, 532px, 'sprite.png', 'B-h', );
+$-b-name: 'B';
+$-b-x: 0px;
+$-b-y: 372px;
+$-b-offset-x: 0px;
+$-b-offset-y: -372px;
+$-b-width: 40px;
+$-b-height: 40px;
+$-b-total-width: 76px;
+$-b-total-height: 532px;
+$-b-image: 'sprite.png';
+$-b: (0px, 372px, 0px, -372px, 40px, 40px, 76px, 532px, 'sprite.png', 'B', );
+$case-name: 'case';
+$case-x: 0px;
+$case-y: 31px;
+$case-offset-x: 0px;
+$case-offset-y: -31px;
+$case-width: 21px;
+$case-height: 19px;
+$case-total-width: 76px;
+$case-total-height: 532px;
+$case-image: 'sprite.png';
+$case: (0px, 31px, 0px, -31px, 21px, 19px, 76px, 532px, 'sprite.png', 'case', );
+$fb-h-name: 'fb-h';
+$fb-h-x: 0px;
+$fb-h-y: 332px;
+$fb-h-offset-x: 0px;
+$fb-h-offset-y: -332px;
+$fb-h-width: 40px;
+$fb-h-height: 40px;
+$fb-h-total-width: 76px;
+$fb-h-total-height: 532px;
+$fb-h-image: 'sprite.png';
+$fb-h: (0px, 332px, 0px, -332px, 40px, 40px, 76px, 532px, 'sprite.png', 'fb-h', );
+$fb-name: 'fb';
+$fb-x: 0px;
+$fb-y: 412px;
+$fb-offset-x: 0px;
+$fb-offset-y: -412px;
+$fb-width: 40px;
+$fb-height: 40px;
+$fb-total-width: 76px;
+$fb-total-height: 532px;
+$fb-image: 'sprite.png';
+$fb: (0px, 412px, 0px, -412px, 40px, 40px, 76px, 532px, 'sprite.png', 'fb', );
+$file-name: 'file';
+$file-x: 0px;
+$file-y: 90px;
+$file-offset-x: 0px;
+$file-offset-y: -90px;
+$file-width: 15px;
+$file-height: 20px;
+$file-total-width: 76px;
+$file-total-height: 532px;
+$file-image: 'sprite.png';
+$file: (0px, 90px, 0px, -90px, 15px, 20px, 76px, 532px, 'sprite.png', 'file', );
+$gh-h-name: 'gh-h';
+$gh-h-x: 0px;
+$gh-h-y: 252px;
+$gh-h-offset-x: 0px;
+$gh-h-offset-y: -252px;
+$gh-h-width: 40px;
+$gh-h-height: 40px;
+$gh-h-total-width: 76px;
+$gh-h-total-height: 532px;
+$gh-h-image: 'sprite.png';
+$gh-h: (0px, 252px, 0px, -252px, 40px, 40px, 76px, 532px, 'sprite.png', 'gh-h', );
+$gh-name: 'gh';
+$gh-x: 0px;
+$gh-y: 292px;
+$gh-offset-x: 0px;
+$gh-offset-y: -292px;
+$gh-width: 40px;
+$gh-height: 40px;
+$gh-total-width: 76px;
+$gh-total-height: 532px;
+$gh-image: 'sprite.png';
+$gh: (0px, 292px, 0px, -292px, 40px, 40px, 76px, 532px, 'sprite.png', 'gh', );
+$hat-name: 'hat';
+$hat-x: 0px;
+$hat-y: 12px;
+$hat-offset-x: 0px;
+$hat-offset-y: -12px;
+$hat-width: 27px;
+$hat-height: 19px;
+$hat-total-width: 76px;
+$hat-total-height: 532px;
+$hat-image: 'sprite.png';
+$hat: (0px, 12px, 0px, -12px, 27px, 19px, 76px, 532px, 'sprite.png', 'hat', );
+$mail-gold-name: 'mail-gold';
+$mail-gold-x: 0px;
+$mail-gold-y: 0px;
+$mail-gold-offset-x: 0px;
+$mail-gold-offset-y: 0px;
+$mail-gold-width: 16px;
+$mail-gold-height: 12px;
+$mail-gold-total-width: 76px;
+$mail-gold-total-height: 532px;
+$mail-gold-image: 'sprite.png';
+$mail-gold: (0px, 0px, 0px, 0px, 16px, 12px, 76px, 532px, 'sprite.png', 'mail-gold', );
+$pen-name: 'pen';
+$pen-x: 0px;
+$pen-y: 170px;
+$pen-offset-x: 0px;
+$pen-offset-y: -170px;
+$pen-width: 21px;
+$pen-height: 21px;
+$pen-total-width: 76px;
+$pen-total-height: 532px;
+$pen-image: 'sprite.png';
+$pen: (0px, 170px, 0px, -170px, 21px, 21px, 76px, 532px, 'sprite.png', 'pen', );
+$phone-gold-name: 'phone-gold';
+$phone-gold-x: 0px;
+$phone-gold-y: 191px;
+$phone-gold-offset-x: 0px;
+$phone-gold-offset-y: -191px;
+$phone-gold-width: 16px;
+$phone-gold-height: 21px;
+$phone-gold-total-width: 76px;
+$phone-gold-total-height: 532px;
+$phone-gold-image: 'sprite.png';
+$phone-gold: (0px, 191px, 0px, -191px, 16px, 21px, 76px, 532px, 'sprite.png', 'phone-gold', );
+$photo-name: 'photo';
+$photo-x: 0px;
+$photo-y: 110px;
+$photo-offset-x: 0px;
+$photo-offset-y: -110px;
+$photo-width: 20px;
+$photo-height: 20px;
+$photo-total-width: 76px;
+$photo-total-height: 532px;
+$photo-image: 'sprite.png';
+$photo: (0px, 110px, 0px, -110px, 20px, 20px, 76px, 532px, 'sprite.png', 'photo', );
+$skill-3-name: 'skill-3';
+$skill-3-x: 0px;
+$skill-3-y: 130px;
+$skill-3-offset-x: 0px;
+$skill-3-offset-y: -130px;
+$skill-3-width: 43px;
+$skill-3-height: 20px;
+$skill-3-total-width: 76px;
+$skill-3-total-height: 532px;
+$skill-3-image: 'sprite.png';
+$skill-3: (0px, 130px, 0px, -130px, 43px, 20px, 76px, 532px, 'sprite.png', 'skill-3', );
+$skill-4-name: 'skill-4';
+$skill-4-x: 0px;
+$skill-4-y: 150px;
+$skill-4-offset-x: 0px;
+$skill-4-offset-y: -150px;
+$skill-4-width: 48px;
+$skill-4-height: 20px;
+$skill-4-total-width: 76px;
+$skill-4-total-height: 532px;
+$skill-4-image: 'sprite.png';
+$skill-4: (0px, 150px, 0px, -150px, 48px, 20px, 76px, 532px, 'sprite.png', 'skill-4', );
+$skill-ang-name: 'skill-ang';
+$skill-ang-x: 0px;
+$skill-ang-y: 70px;
+$skill-ang-offset-x: 0px;
+$skill-ang-offset-y: -70px;
+$skill-ang-width: 68px;
+$skill-ang-height: 20px;
+$skill-ang-total-width: 76px;
+$skill-ang-total-height: 532px;
+$skill-ang-image: 'sprite.png';
+$skill-ang: (0px, 70px, 0px, -70px, 68px, 20px, 76px, 532px, 'sprite.png', 'skill-ang', );
+$skill-js-name: 'skill-js';
+$skill-js-x: 0px;
+$skill-js-y: 50px;
+$skill-js-offset-x: 0px;
+$skill-js-offset-y: -50px;
+$skill-js-width: 76px;
+$skill-js-height: 20px;
+$skill-js-total-width: 76px;
+$skill-js-total-height: 532px;
+$skill-js-image: 'sprite.png';
+$skill-js: (0px, 50px, 0px, -50px, 76px, 20px, 76px, 532px, 'sprite.png', 'skill-js', );
+$tw-h-name: 'tw-h';
+$tw-h-x: 0px;
+$tw-h-y: 452px;
+$tw-h-offset-x: 0px;
+$tw-h-offset-y: -452px;
+$tw-h-width: 40px;
+$tw-h-height: 40px;
+$tw-h-total-width: 76px;
+$tw-h-total-height: 532px;
+$tw-h-image: 'sprite.png';
+$tw-h: (0px, 452px, 0px, -452px, 40px, 40px, 76px, 532px, 'sprite.png', 'tw-h', );
+$tw-name: 'tw';
+$tw-x: 0px;
+$tw-y: 492px;
+$tw-offset-x: 0px;
+$tw-offset-y: -492px;
+$tw-width: 40px;
+$tw-height: 40px;
+$tw-total-width: 76px;
+$tw-total-height: 532px;
+$tw-image: 'sprite.png';
+$tw: (0px, 492px, 0px, -492px, 40px, 40px, 76px, 532px, 'sprite.png', 'tw', );
+$spritesheet-width: 76px;
+$spritesheet-height: 532px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($-b-h, $-b, $case, $fb-h, $fb, $file, $gh-h, $gh, $hat, $mail-gold, $pen, $phone-gold, $photo, $skill-3, $skill-4, $skill-ang, $skill-js, $tw-h, $tw, );
+$spritesheet: (76px, 532px, 'sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(../img/icon/sprites/#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

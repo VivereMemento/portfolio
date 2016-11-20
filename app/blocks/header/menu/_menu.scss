@@ -1,0 +1,23 @@
+.menu {
+  float: left;
+
+  &__item {
+    margin-right: 20px;
+    padding: 15px 0;
+    display: inline-block;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font: 400 13px/13px $ffO;
+    color: #333;
+
+    &:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+}

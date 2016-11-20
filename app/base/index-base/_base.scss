@@ -1,0 +1,61 @@
+
+// ----------------------- //
+// Base styles ----------- //
+// ----------------------- //
+html {
+  width: 100%; // прижать footer книзу
+  height: 100%; // прижать footer книзу
+  background: #fff;
+}
+body {
+  width: 100%; // прижать footer книзу
+  //height: 100%; // прижать footer книзу
+  margin: 0;
+  padding: 0;
+  font-family: $ffO;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -webkit-bsckface-visibility: hidden;
+  background: #fff url(../img/bg.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+// прижать footer книзу ********************************* //
+//******************************************************* //
+.page { 
+  min-height: 100%;
+  overflow: hidden; // ликвидация горизонтального скрола 
+  position: relative; // точка отсчета absolute
+}
+//******************************************************* //
+
+.row {
+  @include clr;
+}
+
+[class*="col-"]{padding: 0;}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: color 0.15s linear;
+    -moz-transition: color 0.15s linear;
+      -o-transition: color 0.15s linear;
+        transition: color 0.15s linear;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #324d5b;
+}
+h1, h2, h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+img {
+  max-width: 100%;
+  // min-width: 100%;
+  height: auto;
+}

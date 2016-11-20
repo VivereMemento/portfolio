@@ -1,0 +1,42 @@
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.toy-name {
+  margin-bottom: 5px;
+  font: 400 14px/14px $ffO;
+  color: $red;
+  text-transform: capitalize;
+  display: block;
+}
+
+.title {
+  font: 400 14px/20px $ffO;
+  color: #333;
+}
+
+.price-sale {
+  font: 400 14px/14px $ffO;
+  color: #333;
+  display: block;
+
+  &:before {
+    margin-bottom: 4px;
+    display: block;
+    content: attr(data-price-actual);
+    text-decoration: line-through;
+    color: #ccc;
+  }
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}

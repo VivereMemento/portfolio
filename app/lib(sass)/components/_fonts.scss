@@ -1,0 +1,43 @@
+
+// Open Sans
+
+@font-face {
+	@include font ("Open Sans/OpenSans-Light", "OpenSansLight", 300, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-LightItalic", "OpenSansLightItalic", 200, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-Regular", "OpenSansRegular", 400, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-Italic", "OpenSansRegularItalic", 400, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-Semibold", "OpenSansSemibold", 600, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-SemiboldItalic", "OpenSansSemiboldItalic", 600, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-Bold", "OpenSansLightBold", 700, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-BoldItalic", "OpenSansLightBoldItalic", 700, normal);
+}
+
+
+@font-face {
+	@include font ("Open Sans/OpenSans-ExtraBold", "OpenSansExtraBold", 800, normal);
+}
+
+@font-face {
+	@include font ("Open Sans/OpenSans-ExtraBoldItalic", "OpenSansExtraBoldItalic", 800, normal);
+}
