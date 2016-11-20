@@ -1,62 +1,61 @@
 .social {
-  @include clr;
-}
-
-.social__list {
+  margin-top: 15px;
   float: right;
-}
 
-.social__item {
-  width: 32px;
-  height: 32px;
-  margin-right: 10px;
-  display: inline-block;
+  &__item {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: (50%);
+    // overflow: hidden;
 
-  &:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
-}
 
-.social__link {
-  width: 32px;
-  height: 32px;
-  padding: 7px 6px 6px;
-  display: block;
-  background: #2c3b42;
-  @include br(50%);
-  position: relative;
-
-  &:after {
+  &__link {
+    width: 40px;
+    height: 40px;
     display: block;
-    content: "";
-    width: 100%;
-    height: 100%;
-    background-color: fade-out(#fff, .8);
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
+    border-radius: (50%);
+    
+    &-fb {
+      @include sprite($fb);
 
-  &:hover:after {
-    width: 0;
-    height: 0;
-  }
+      &:hover {
+        text-decoration: none;
+        @include sprite($fb-h);
+      }
+    }
 
-  &-fb {
-    padding: 8px 6px 6px 10px;
-    background-color: #415da6;
-  }
+    &-vk {
+      @include sprite($vk);
 
-  &-vk {
-    background-color: #6084a8;
-  }
+      &:hover {
+        text-decoration: none;
+        @include sprite($vk-h);
+      }
+    }
 
-  &-gl {
-    background-color: #db4d3f;
-  }
-}
+    &-tw {
+      @include sprite($tw);
 
-.fa {
-  font-size: 16px;
-  color: #fff;
+      &:hover {
+        text-decoration: none;
+        @include sprite($tw-h);
+      }
+    }
+
+    &-gh {
+      @include sprite($gh);
+
+      &:hover {
+        text-decoration: none;
+        @include sprite($gh-h);
+      }
+    }
+  }
 }

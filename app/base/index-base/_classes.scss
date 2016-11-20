@@ -1,3 +1,9 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  @include clr;
+}
+
 .float-left {
   float: left;
 }
@@ -6,21 +12,14 @@
   float: right;
 }
 
-.toy-name {
-  margin-bottom: 5px;
-  font: 400 14px/14px $ffO;
-  color: $red;
-  text-transform: capitalize;
-  display: block;
-}
 
 .title {
-  font: 400 14px/20px $ffO;
+  font: 400 14px/20px $ffOR;
   color: #333;
 }
 
 .price-sale {
-  font: 400 14px/14px $ffO;
+  font: 400 14px/14px $ffOR;
   color: #333;
   display: block;
 
