@@ -19,8 +19,10 @@ body {
   color: #727070;
   -webkit-font-smoothing: antialiased;
   -webkit-bsckface-visibility: hidden;
-  background: #fff url(../img/bg.jpg) no-repeat top center;
-  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 // прижать footer книзу ********************************* //
